@@ -13,8 +13,8 @@ import os
 model = load_model('C:/Users/punit/PycharmProjects/fire_detection_model.h5')
 
 # Email configuration (Use environment variables for security)
-sender_email = os.getenv('SENDER_EMAIL', 'destinyvibes2923@outlook.com')
-sender_password = os.getenv('SENDER_PASSWORD', 'mvj@123$')
+sender_email = os.getenv('SENDER_EMAIL', '.......@outlook.com')
+sender_password = os.getenv('SENDER_PASSWORD', '........')
 receiver_email = os.getenv('RECEIVER_EMAIL', 'janrocky80@gmail.com')
 smtp_server = "smtp-mail.outlook.com"
 smtp_port = 587
